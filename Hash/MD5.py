@@ -1,4 +1,5 @@
 import hashlib 
+
 while (1):
     a = input("Enter Your Message: (or exit) ")
     if (a == "exit"):
