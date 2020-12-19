@@ -4,7 +4,7 @@ def counter(text,char):
         if c == char:
             count += 1
     return count
-filename = input("Enter your Filename : ")
+filename = input("Enter your Filename: ")
 with open(filename) as file :
     text = file.read()
 for char in "abcdefghijklmnopqrstuvwxyz" :
