@@ -16,7 +16,5 @@ w.pack(pady=10)
 
 #making a button to get the value
 Button(window,text="get value",command=push).pack()
-
-
 #creating the loop for the program
 window.mainloop()
