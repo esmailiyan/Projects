@@ -1,4 +1,5 @@
 from base64 import *
+
 while 1:
     x=input("You want to 'ENcode' or 'DEcode' or 'EXit'?\n")
     x=x.lower()
