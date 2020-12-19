@@ -31,6 +31,5 @@ B3.pack()
 
 B4 = Button(window, text = "ask question", command = ask_quest)
 B4.pack()
-
 #making a loop for window
 window.mainloop()
