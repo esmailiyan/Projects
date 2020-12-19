@@ -30,6 +30,5 @@ send_btn.pack()
 #creating a list box for elements
 list_box = Listbox(window)
 list_box.pack()
-
 #creating the loop for the program
 window.mainloop()
