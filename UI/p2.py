@@ -39,6 +39,5 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 
 # display the menu
 window .config(menu=menubar)
-
 #creating the loop for the program
 window.mainloop()
