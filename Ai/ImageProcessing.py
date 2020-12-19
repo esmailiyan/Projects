@@ -29,7 +29,6 @@ while(True):
    # برای قطع عملیات فشردن ESC
     if cv2.waitKey(1) & 0xFF == 27:
       break
-
   # شکستن حلقه
   else:
     break  
