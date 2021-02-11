@@ -23,6 +23,10 @@ while (num):
 print(" --------------------")
 print(" {0}: {1}".format("your Password" , text))
 print(" --------------------")
+
+file = open("password.txt","r")
+last = file.read()
+file.close()
 file = open("password.txt","w")
-file.write(account + "==> Username: " +  user + " & Password: " + text)
+file.write(last + account + "=> Username: " +  user + " & Password: " + text + "\n")
 file.close()
